@@ -117,3 +117,23 @@ html{
         border-color: #1699e5;
     }
 }
+
+.page-nav{
+    background-color: #f0f5fa;
+    padding: 50px;
+    h2{
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    ul{
+        li{
+            float: left;
+            font-weight: 600;
+            font-size: .9rem;
+            .fa-angle-double-right{
+                width: 50px;
+                text-align: center;
+            }
+        }
+    }
+}

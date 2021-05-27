@@ -25,6 +25,9 @@ header{
                 display: none;
             }
 			ul{
+                 @media screen and (max-width:991px){
+                    margin-top: 20px;
+                 }
                
                 float: right;
 				li{
@@ -35,6 +38,9 @@ header{
                     	color: #FFF;
                     	font-weight: 600;
                     	font-size: .9rem;
+                        @media screen and (max-width:991px){
+                            font-size: 1rem;
+                        }
                     }
                      @media screen and (max-width:991px){
                         float: none;
@@ -66,6 +72,9 @@ header{
         padding-top: 30px;
         img{
             max-width: 450px;
+             @media screen and (max-width:767px){
+                max-width: 100%;
+             }
         }
         
     }
@@ -95,6 +104,9 @@ header{
 .domain-search{
     background-color: #f0f5fa;
     padding: 80px;
+     @media screen and (max-width:767px){
+        padding: 15px;
+     }
     .domain-container{
         float: none;
         margin: auto;
@@ -119,6 +131,10 @@ header{
                     border-radius: 0px;
                     height: 50px;
                 }
+                 @media screen and (max-width:767px){
+                    padding-left: 12px;
+                    padding-right: 0px;
+                 }
             }
         }
         .domainnamers{
@@ -130,6 +146,10 @@ header{
                     font-weight: 600;
                     font-size: 1.2rem;
                     font-weight: 600;
+                     @media screen and (max-width:991px){
+                        padding-right: 3px; 
+                        padding-left: 3px;
+                     }
                     span{
                         margin-left: 5px;
                         font-size: 1.1rem;
@@ -147,6 +167,7 @@ header{
         .plan-col{
             .plan-cover{
                 border: 1px solid rgb(226,226,226);
+                margin-bottom: 20px;
                 .plan-title{
                     padding: 30px;
                     text-align: center;
@@ -411,3 +432,61 @@ address{
     @media screen and (max-width: 777px) {
       .copy span {
         display: none; } }
+
+
+
+// ========= About Us ============ 
+
+.about-coo{
+    
+    background-color: #FFF;
+    padding-top: 130px;
+    .about-row{
+        margin-top: 50px;
+        @media only screen and (max-width: 476px) {
+            padding-top: 90px;
+        }
+        .about-img{
+            text-align: center;
+            margin: auto;
+            img{
+                
+                @media only screen and (max-width: 767px) {
+                    width: 100%;
+                }
+                @media only screen and (max-width: 476px) {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .about-text{
+            h1{
+                margin-bottom: 30px;
+                font-size: 2rem;
+                line-height: 40px;
+            }
+            p{
+                margin-bottom: 30px;
+            }
+            .about-featur{
+                ul{
+                    width: 100%;
+                    margin-left: -10px;
+                    li{
+                        padding: 10px;
+                        width: 50%;
+                        float: left;
+                        font-weight: 400;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg-other{
+    background-color: #f9f9f9;
+}

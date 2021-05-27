@@ -122,6 +122,24 @@ html {
   border-color: #1699e5;
 }
 
+.page-nav {
+  background-color: #f0f5fa;
+  padding: 50px;
+}
+.page-nav h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.page-nav ul li {
+  float: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.page-nav ul li .fa-angle-double-right {
+  width: 50px;
+  text-align: center;
+}
+
 header {
   background-color: #1699e5;
 }
@@ -142,6 +160,11 @@ header .head-col .show {
 header .head-col .nav-col ul {
   float: right;
 }
+@media screen and (max-width: 991px) {
+  header .head-col .nav-col ul {
+    margin-top: 20px;
+  }
+}
 header .head-col .nav-col ul li {
   float: left;
   padding: 10px;
@@ -151,6 +174,11 @@ header .head-col .nav-col ul li a {
   color: #FFF;
   font-weight: 600;
   font-size: 0.9rem;
+}
+@media screen and (max-width: 991px) {
+  header .head-col .nav-col ul li a {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 991px) {
   header .head-col .nav-col ul li {
@@ -184,6 +212,11 @@ header .small-menu {
 .slider .image-part img {
   max-width: 450px;
 }
+@media screen and (max-width: 767px) {
+  .slider .image-part img {
+    max-width: 100%;
+  }
+}
 .slider .text-part {
   padding-top: 78px;
   text-align: left;
@@ -210,6 +243,11 @@ header .small-menu {
   background-color: #f0f5fa;
   padding: 80px;
 }
+@media screen and (max-width: 767px) {
+  .domain-search {
+    padding: 15px;
+  }
+}
 .domain-search .domain-container {
   float: none;
   margin: auto;
@@ -235,6 +273,12 @@ header .small-menu {
   border-radius: 0px;
   height: 50px;
 }
+@media screen and (max-width: 767px) {
+  .domain-search .domain-container .search-row .btncol {
+    padding-left: 12px;
+    padding-right: 0px;
+  }
+}
 .domain-search .domain-container .domainnamers ul li {
   float: left;
   margin-right: 5px;
@@ -242,6 +286,12 @@ header .small-menu {
   font-weight: 600;
   font-size: 1.2rem;
   font-weight: 600;
+}
+@media screen and (max-width: 991px) {
+  .domain-search .domain-container .domainnamers ul li {
+    padding-right: 3px;
+    padding-left: 3px;
+  }
 }
 .domain-search .domain-container .domainnamers ul li span {
   margin-left: 5px;
@@ -259,6 +309,7 @@ header .small-menu {
 }
 .plans-container .plan-row .plan-col .plan-cover {
   border: 1px solid #e2e2e2;
+  margin-bottom: 20px;
 }
 .plans-container .plan-row .plan-col .plan-cover .plan-title {
   padding: 30px;
@@ -551,6 +602,57 @@ address a {
   .copy span {
     display: none;
   }
+}
+.about-coo {
+  background-color: #FFF;
+  padding-top: 130px;
+}
+.about-coo .about-row {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 476px) {
+  .about-coo .about-row {
+    padding-top: 90px;
+  }
+}
+.about-coo .about-row .about-img {
+  text-align: center;
+  margin: auto;
+}
+@media only screen and (max-width: 767px) {
+  .about-coo .about-row .about-img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .about-coo .about-row .about-img img {
+    margin-bottom: 30px;
+  }
+}
+.about-coo .about-row .about-text h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  line-height: 40px;
+}
+.about-coo .about-row .about-text p {
+  margin-bottom: 30px;
+}
+.about-coo .about-row .about-text .about-featur ul {
+  width: 100%;
+  margin-left: -10px;
+}
+.about-coo .about-row .about-text .about-featur ul li {
+  padding: 10px;
+  width: 50%;
+  float: left;
+  font-weight: 400;
+}
+.about-coo .about-row .about-text .about-featur ul li i {
+  margin-right: 5px;
+}
+
+.bg-other {
+  background-color: #f9f9f9;
 }
 
 /*# sourceMappingURL=style.css.map */
